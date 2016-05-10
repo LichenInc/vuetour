@@ -1,0 +1,10 @@
+{
+  "plugins": ["html"],
+  "extends": "airbnb/base",
+  "rules": {
+    "semi": [1, "never"],
+    "camelcase": [0],
+    "max-len": [1, 100, {"ignoreComments": true}],
+    "indent": [1, 2, { "VariableDeclarator": { "var": 2, "let": 2, "const": 3 } }]
+  }
+}
